@@ -6,8 +6,8 @@ export default class Preloader extends Phaser.Scene
     {
         super('preloader');
     }
-
-	preload()
+    
+    preload()
     {
         this.load.image('background', 'assets/bg_layer1.png');
         this.load.image('carrot', 'assets/carrot.png');
