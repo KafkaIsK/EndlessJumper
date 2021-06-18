@@ -14,7 +14,7 @@ export default class Game extends Phaser.Scene
 
     create()
     {
-
+        this.add.image(240, 320, 'background');
     }
     
 }
