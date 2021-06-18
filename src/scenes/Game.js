@@ -2,10 +2,10 @@ import Phaser from 'phaser'
 
 export default class Game extends Phaser.Scene
 {
-	constructor()
-	{
-		super('game');
-	}
+    constructor()
+    {
+        super('game');
+    }
 
 	preload()
     {

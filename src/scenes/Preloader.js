@@ -4,8 +4,8 @@ export default class Preloader extends Phaser.Scene
 {
     constructor()
     {
-		super('preloader');
-	}
+        super('preloader');
+    }
 
 	preload()
     {
